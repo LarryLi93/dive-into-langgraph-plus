@@ -1,0 +1,17 @@
+format: jb-book
+root: book/home.ipynb
+chapters:
+  - file: 0.introduce.ipynb
+  - file: 1.quickstart.ipynb
+  - file: 2.stategraph.ipynb
+  - file: 3.middleware.ipynb
+  - file: 4.human_in_the_loop.ipynb
+  - file: 5.memory.ipynb
+  - file: 6.context.ipynb
+  - file: 7.mcp_server.ipynb
+  - file: 8.supervisor.ipynb
+  - file: 9.parallel.ipynb
+  - file: 10.deep_agents.ipynb
+  - file: 11.langgraph_cli.ipynb
+  - file: 12.development_case.ipynb
+  - file: 13.business_case.ipynb

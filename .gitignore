@@ -1,0 +1,19 @@
+.DS_Store
+.idea
+.langgraph_api
+.ipynb_checkpoints
+.trae
+
+.env
+
+__pycache__
+static
+archived
+
+*.log
+*.db
+*.db-wal
+*.db-shm
+
+# MyST build outputs
+_build

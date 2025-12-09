@@ -1,0 +1,10 @@
+title: Dive Into LangGraph Plus
+author: Larry Li
+repository:
+  url: https://github.com/LarryLi93/dive-into-langgraph-plus
+  path_to_book: .
+sphinx:
+  config:
+    html_baseurl: https://github.com/LarryLi93/dive-into-langgraph-plus/
+execute:
+  execute_notebooks: "off"
