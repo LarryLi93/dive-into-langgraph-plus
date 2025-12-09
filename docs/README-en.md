@@ -1,14 +1,13 @@
 <div align="center">
     <img src="../img/social-preview.jpg" width="100%">
-    <h1>Dive into LangGraph</h1>
+    <h1>Dive Into LangGraph Plus</h1>
+    <h3>Larry Li</h3>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/stars/LarryLi93/dive-into-langgraph-plus?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/badge/language-English-brightgreen?style=flat" alt="Language"/>
-  <a href="https://github.com/luochang212/dive-into-langgraph"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
-  <a href="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml"><img src="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml/badge.svg?branch=main" alt="deploy-book"/></a>
+  <a href="https://github.com/LarryLi93/dive-into-langgraph-plus"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
 </div>
 
 <div align="center">
@@ -18,9 +17,10 @@
 </div>
 
 <div align="center">
-  <p><a href="https://luochang212.github.io/dive-into-langgraph/">📚 Online Reading</a></p>
-  <h3>📖 LangGraph 1.0 Complete Guide</h3>
+  <p><a href="https://github.com/LarryLi93/dive-into-langgraph-plus/">📚 Online Reading</a></p>
+  <h3>📖 LangGraph 1.0 Complete Guide Plus Edition</h3>
   <p><em>Build powerful agents from scratch</em></p>
+  <p><em>This tutorial extends LuoChang’s Dive-Into-Langgraph beginner guide with development Cases and business Solutions for advanced learning.</em></p>
 </div>
 
 ---
@@ -29,7 +29,7 @@
 
 > In mid-October 2025, LangGraph released version 1.0. The team announced this as a stable release and expects the interfaces not to change significantly, so now is a great time to learn it.
 
-This is an open-source ebook project designed to help Agent developers quickly master the LangGraph framework. [LangGraph](https://github.com/langchain-ai/langgraph) is an open-source agent framework developed by the LangChain team. It's powerful — memory, MCP, guardrails, state management, and multi-agent capabilities are all built in. LangGraph is typically used together with [LangChain](https://github.com/langchain-ai/langchain): LangChain provides the building blocks and tools, while LangGraph focuses on workflow orchestration and state management. Therefore, both libraries need to be learned. To help you ramp up quickly, this tutorial extracts the most important features from both libraries and organizes them into 11 chapters.
+This is an open-source ebook project designed to help Agent developers quickly master the LangGraph framework. [LangGraph](https://github.com/langchain-ai/langgraph) is an open-source agent framework developed by the LangChain team. It's powerful — memory, MCP, guardrails, state management, and multi-agent capabilities are all built in. LangGraph is typically used together with [LangChain](https://github.com/langchain-ai/langchain): LangChain provides the building blocks and tools, while LangGraph focuses on workflow orchestration and state management. Therefore, both libraries need to be learned. To help you ramp up quickly, this tutorial extracts the most important features from both libraries and organizes them into 14 chapters.
 
 ## 2. Installation
 
@@ -66,17 +66,20 @@ Quick overview of the tutorial:
 
 | # | Chapter | Main Content |
 | -- | -- | -- |
+| 0 | [AI Framework Overview](../0.introduce.ipynb) | Overview of mainstream AI frameworks and their strengths |
 | 1 | [Quickstart](../1.quickstart.ipynb) | Create your first ReAct Agent |
 | 2 | [State Graph](../2.stategraph.ipynb) | Create workflows using StateGraph |
 | 3 | [Middleware](../3.middleware.ipynb) | Implement four features with custom middleware: budget control, message truncation, sensitive word filtering, PII detection |
 | 4 | [Human-in-the-Loop](../4.human_in_the_loop.ipynb) | Implement human-in-the-loop using built-in HITL middleware |
-| 5 | [Memory](../5.memory.ipynb) | Learn how to create short-term and long-term memory |
+| 5 | [Memory](../5.memory.ipynb) | Create short-term and long-term memory |
 | 6 | [Context Engineering](../6.context.ipynb) | Manage context using State, Store, Runtime |
-| 7 | [MCP Server](../7.mcp_server.ipynb) | How to create MCP Server and integrate with LangGraph |
-| 8 | [Supervisor Pattern](../8.supervisor.ipynb) | Two methods to implement supervisor pattern: tool-calling, langgraph-supervisor |
-| 9 | [Parallelism](../9.parallel.ipynb) | How to implement parallelism: node parallelism, Map-reduce |
+| 7 | [MCP Server](../7.mcp_server.ipynb) | Create an MCP Server and integrate it with LangGraph |
+| 8 | [Supervisor Pattern](../8.supervisor.ipynb) | Two methods to implement a supervisor pattern: tool-calling, langgraph-supervisor |
+| 9 | [Parallelism](../9.parallel.ipynb) | Implement parallelism: node parallelism, Map-reduce |
 | 10 | [Deep Agents](../10.deep_agents.ipynb) | Brief introduction to Deep Agents |
-| 11 | [Debug UI](../11.langgraph_cli.ipynb) | Introduction to the debug UI provided by langgraph-cli |
+| 11 | [Debug UI](../11.langgraph_cli.ipynb) | Debug UI provided by langgraph-cli |
+| 12 | [Development Cases](../12.development_case.ipynb) | Common core development cases |
+| 13 | [Business Cases](../13.business_case.ipynb) | Common business solutions |
 
 Important examples not covered above are placed under the repository’s `tests` directory:
 

@@ -3,6 +3,7 @@
 .langgraph_api
 .ipynb_checkpoints
 .trae
+theme
 
 .env
 
@@ -17,3 +18,5 @@ archived
 
 # MyST build outputs
 _build
+.myst_build/
+node_modules/

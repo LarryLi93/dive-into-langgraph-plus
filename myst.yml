@@ -1,15 +1,26 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 46b30020-b078-4f68-81fc-430fbf897d0f
-  title: 首页
-  description: LangGraph 1.0 Plus教程
-  keywords: [ "LangGraph", "Langchain" ]
-  authors: []
-  github: https://github.com/LarryLi93/dive-into-langgraph-plus
+  title: Dive Into LangGraph Plus
+  authors:
+    - name: Larry Li
+  github: LarryLi93/dive-into-langgraph-plus
+  toc:
+    - file: book/home.ipynb
+    - file: 0.introduce.ipynb
+    - file: 1.quickstart.ipynb
+    - file: 2.stategraph.ipynb
+    - file: 3.middleware.ipynb
+    - file: 4.human_in_the_loop.ipynb
+    - file: 5.memory.ipynb
+    - file: 6.context.ipynb
+    - file: 7.mcp_server.ipynb
+    - file: 8.supervisor.ipynb
+    - file: 9.parallel.ipynb
+    - file: 10.deep_agents.ipynb
+    - file: 11.langgraph_cli.ipynb
+    - file: 12.development_case.ipynb
+    - file: 13.business_case.ipynb
 site:
-  template: book-theme
   options:
-    logo_text: Dive Into LangGraph Plus
-    logo: ./img/author.svg  # 可选，添加自定义logo
-    # favicon: ./static/favicon.ico  # 可选，配置浏览器图标
+    folders: true
+  template: ./theme

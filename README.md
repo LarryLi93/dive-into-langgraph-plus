@@ -6,7 +6,6 @@
 
 <div align="center">
   <img src="https://img.shields.io/github/stars/LarryLi93/dive-into-langgraph-plus?style=flat&logo=github" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/LarryLi93/dive-into-langgraph-plus?style=flat&logo=github" alt="GitHub forks"/>
   <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
   <a href="https://github.com/LarryLi93/dive-into-langgraph-plus"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
   <!-- <a href="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml"><img src="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml/badge.svg?branch=main" alt="deploy-book"/></a> -->
