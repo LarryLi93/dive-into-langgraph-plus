@@ -1,6 +1,8 @@
 version: 1
 project:
   title: Dive Into LangGraph Plus
+  description: LangGraph 1.0 Plus教程
+  keywords: [ "LangGraph", "Langchain" ]
   authors:
     - name: Larry Li
   github: LarryLi93/dive-into-langgraph-plus
@@ -24,3 +26,4 @@ site:
   options:
     folders: true
   template: ./theme
+  base_url: /dive-into-langgraph-plus
