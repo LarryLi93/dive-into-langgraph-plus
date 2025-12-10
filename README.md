@@ -21,7 +21,7 @@
   <p><a href="https://larryli93.github.io/dive-into-langgraph-plus/">📚 在线阅读地址</a></p>
   <h3>📖《LangGraph 1.0 完全指南 Plus版》</h3>
   <p><em>从零开始，动手实现强大的智能体</em></p>
-  <p><em>本教程基于LuoChang大佬的Dive-Into-Langgraph入门教程，加入开发案例(Cases)、以及商业解决方案(Solutions)，作为进阶教程使用</em></p>
+  <p><em>本教程基于Dive-Into-Langgraph，加入开发案例(Cases)、以及商业解决方案(Solutions)，作为进阶教程使用</em></p>
 </div>
 
 ---
