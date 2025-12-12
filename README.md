@@ -21,7 +21,7 @@
   <p><a href="https://larryli93.github.io/dive-into-langgraph-plus/">📚 在线阅读地址</a></p>
   <h3>📖《LangGraph 1.0 完全指南 Plus版》</h3>
   <p><em>从零开始，动手实现强大的智能体</em></p>
-  <p><em>本教程基于Dive Langgraph官网，进一步加入开发案例(Cases)、以及商业解决方案(Solutions)，完善为入门+进阶教程使用</em></p>
+  <p><em>本教程基于Dive Langgraph，进一步加入开发案例(Cases)、以及商业解决方案(Solutions)，完善为入门+进阶教程使用</em></p>
 </div>
 
 ---
@@ -30,7 +30,14 @@
 
 > 2025 年 10 月中旬，LangGraph 发布 1.0 版本。开发团队承诺这是一个稳定版本，预计未来接口不会大改，因此现在正是学习它的好时机。
 
-这是一个开源电子书项目，旨在帮助 Agent 开发者快速掌握 LangGraph 框架。[LangGraph](https://github.com/langchain-ai/langgraph) 是由 LangChain 团队开发的开源智能体框架。它功能强大，你要的记忆、MCP、护栏、状态管理、多智能体它全都有。LangGraph 通常与 [LangChain](https://github.com/langchain-ai/langchain) 一起使用：LangChain 提供基础组件和工具，LangGraph 负责工作流和状态管理。因此，两个库都需要学习。为了让大家快速入门，本教程将两个库的主要功能提取出来，分成 14 个章节进行介绍。
+这是一个开源教程项目，旨在帮助 Agent 开发者快速掌握 LangGraph 框架。[LangGraph](https://github.com/langchain-ai/langgraph) 是由 LangChain 团队开发的开源智能体框架。它功能强大，你要的记忆、MCP、护栏、状态管理、多智能体它全都有。LangGraph 通常与 [LangChain](https://github.com/langchain-ai/langchain) 一起使用：LangChain 提供基础组件和工具，LangGraph 负责工作流和状态管理。因此，两个库都需要学习。为了让大家快速入门，本教程将两个库的主要功能提取出来，分成 14 个章节进行介绍。
+
+
+> \[!NOTE\]
+> 
+> **前提**：本项目默认你已完成AI核心知识的入门，若没有。
+> 请移步到项目《AI Core Knowledge》进行学习。
+
 
 ## 二、安装依赖
 
@@ -94,7 +101,7 @@ pip install -r requirements.txt
 
 > \[!NOTE\]
 > 
-> **承诺**：本教程完全基于 LangGraph v1.0 编写，不含任何 v0.6 的历史残留。
+> **承诺**：本教程完全基于 LangGraph v1 编写，不含任何 v0.6 的历史残留。
 
 ## 四、调试页面
 

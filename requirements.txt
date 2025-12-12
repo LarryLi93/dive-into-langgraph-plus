@@ -14,3 +14,5 @@ fastmcp
 bs4
 grandalf
 mystmd
+faiss-cpu
+langchain_milvus

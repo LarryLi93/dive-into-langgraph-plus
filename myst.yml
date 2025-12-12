@@ -4,7 +4,7 @@ project:
   description: LangGraph 1.0 Plus教程
   keywords: [ "LangGraph", "Langchain" ]
   authors:
-    - name: Author Larry Li（李志健）
+    - name: LarryLi & Seth
   github: LarryLi93/dive-into-langgraph-plus
   toc:
     - file: book/home.ipynb
@@ -21,12 +21,21 @@ project:
     - file: 10.deep_agents.ipynb
     - file: 11.langgraph_cli.ipynb
     - file: 12.development_case.ipynb
+      children:
+      - file: 12.1.multi_intention_graph.ipynb
+      - file: 12.2.agent_rag.ipynb
+      - file: 12.3.auth_agent_rag.ipynb
+      - file: 12.4.db_agent_rag.ipynb
+      - file: 12.5.enhance_agent_rag.ipynb
+      - file: 12.6.senior_agent_rag.ipynb
+      - file: 12.7.graph_agent_rag.ipynb
     - file: 13.business_case.ipynb
 site:
   options:
     folders: true
     base_url: /dive-into-langgraph-plus
     logo_text: Dive Into LangGraph Plus
-    logo: "./img/author.svg"
+    logo: "./img/author.ico"
+    favicon: "./img/author.ico"
     hide_myst_branding: true
   template: book-theme
