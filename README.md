@@ -21,7 +21,7 @@
   <p><a href="https://larryli93.github.io/dive-into-langgraph-plus/">📚 在线阅读地址</a></p>
   <h3>📖《LangGraph 1.0 完全指南 Plus版》</h3>
   <p><em>从零开始，动手实现强大的智能体</em></p>
-  <p><em>本教程基于Dive Langgraph，进一步加入开发案例(Cases)、以及商业解决方案(Solutions)，完善为入门+进阶教程使用</em></p>
+  <p><em>本教程基于Dive Langgraph和官网，进行了更全面的梳理/整合，并加入多个开发案例(Cases)、以及商业解决方案(Solutions)，可作为入门+进阶教程使用。</em></p>
 </div>
 
 ---
@@ -35,8 +35,8 @@
 
 > \[!NOTE\]
 > 
-> **前提**：本项目默认你已完成AI核心知识的入门，若没有。
-> 请移步到项目《AI Core Knowledge》进行学习。
+> **前提**：本项目默认你已完成AI核心知识的学习，若没有。
+> 请移步到项目[《AI Core Knowledge》](https://github.com/LarryLi93/AI-Core-Knowledge)进行学习。
 
 
 ## 二、安装依赖

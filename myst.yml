@@ -28,7 +28,9 @@ project:
       - file: 12.4.db_agent_rag.ipynb
       - file: 12.5.enhance_agent_rag.ipynb
       - file: 12.6.senior_agent_rag.ipynb
-      - file: 12.7.graph_agent_rag.ipynb
+      - file: 12.7.multi_modal_preprocessing.ipynb
+      - file: 12.8.graph_agent_rag.ipynb
+      - file: 12.9.deep_agent.ipynb
     - file: 13.business_case.ipynb
 site:
   options:
